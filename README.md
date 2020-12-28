@@ -2,7 +2,11 @@
 The most secure password checker project
 
 - Password-checker script gets input(s) from the command line and checks whether it's ever being hacked/leaked or not.
-<img src="password-checker-ip.png" align="center">
+
+<div align="center">
+    <img src="password-checker-ip.png">
+</div>
+
 - The idea here is implemented using an API, request/response cycle, and hashing
 - The script is implemented in three key functions:
 1. pwned_api_check()
@@ -22,4 +26,7 @@ The most secure password checker project
 - Now, the tail part of our hash can be compared with the set of hashes and counts received from the API to securely check our password's strength
 - And the result is provided either with the count of hacks or your password is secure message as follows:
 
-<img src="password-checker-op.png"  align="center">
+<div align="center">
+    <img src="password-checker-op.png">
+</div>
+
