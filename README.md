@@ -2,24 +2,24 @@
 The most secure password checker project
 
 - Password-checker script gets input(s) from the command line and checks whether it's ever being hacked/leaked or not.
-<img src="password-checker-ip.png">
+<img src="password-checker-ip.png" align="center">
 - The idea here is implemented using an API, request/response cycle, and hashing
 - The script is implemented in three key functions:
-... 1. pwned_api_check()
-... 2. request_api_data()
-... 3. get_password_leaks_counts()
-
+1. pwned_api_check()
+2. request_api_data()
+3. get_password_leaks_counts()
+---
 - The script works by taking input as command line arguements: PASSWORD1, PASSWORD2, P@$$W0RD3 (for example)
 - Later, the passwords gets hashed using SHA1 algorithm for secure request/response over the internet
 - Then, the hashed password is divided into two parts namely, head and tail
-
+---
 - Now, only the *head of the hashed password* is sent as a request query through the API
 - The API being used is offered by [Have I Been Pwned](https://haveibeenpwned.com/Passwords) website.
 - The process of sending only the head is known as [**k-anonymity**](https://en.wikipedia.org/wiki/K-anonymity#:~:text=The%20concept%20of%20k%2Danonymity,subjects%20of%20the%20data%20cannot)
 (This process is done for secure request/response cycle over the internet to avoid Man in the Middle attack)
-
+---
 - The response we receive is a list of tail part of password hashes, and the number of times the password is leaked from the API's database server
 - Now, the tail part of our hash can be compared with the set of hashes and counts received from the API to securely check our password's strength
 - And the result is provided either with the count of hacks or your password is secure message as follows:
 
-<img src="password-checker-op.png">
+<img src="password-checker-op.png"  align="center">
