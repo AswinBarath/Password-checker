@@ -30,3 +30,8 @@ The most secure password checker project
     <img src="password-checker-op.png">
 </div>
 
+### Time Taken To Crack Your Password : 
+
+<div align="center">
+    <img src="Password-Stat.png"
+</div>
