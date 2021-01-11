@@ -7,7 +7,7 @@
 ## Table of content
 
 - [Libraries](#Libraries-used)
-- [Working of the code](#Working-of-the-code:)
+- [Working of the code](#Working-of-the-code)
 - [Importance of password strength](#Importance-of-password-strength)
 - [Contributors](#Contributors)
 ---
@@ -19,8 +19,10 @@ The following libraries are used in the password-checker script:
 - [sys](https://docs.python.org/3/library/sys.html)
 
 ---
+**[⬆ Back to Top](#Table-of-content)**
 
-## Working of the code:
+
+## Working of the code
 - Password-checker script gets input(s) from the command line and checks whether it's ever being hacked/leaked or not.
 
 <div align="center">
@@ -51,6 +53,8 @@ The following libraries are used in the password-checker script:
 </div>
 
 ---
+**[⬆ Back to Top](#Table-of-content)**
+
 
 ### Importance of password strength
 - Importance of the strength of your password is vital in the protection of your personal data.
@@ -66,6 +70,7 @@ The following libraries are used in the password-checker script:
 </div>
 
 ---
+**[⬆ Back to Top](#Table-of-content)**
 
 #### Contributors
 
