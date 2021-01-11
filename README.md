@@ -1,6 +1,8 @@
 # Password-checker
-The most secure password checker project
+<em>The most secure password checker project</em>
+Password-checker is a python script which checks whether your password is ever being being hacked/leaked or not.
 
+## Working of the code:
 - Password-checker script gets input(s) from the command line and checks whether it's ever being hacked/leaked or not.
 
 <div align="center">
@@ -30,8 +32,24 @@ The most secure password checker project
     <img src="password-checker-op.png">
 </div>
 
-### Time Taken To Crack Your Password : 
+---
 
+### Importance of password strength
+- Importance of the strength of your password is vital in the protection of your personal data.
+- The strength of the password depends on factors like:
+    - Length of your password
+    - Usage of numbers
+    - Usage of lowercase letters
+    - Usage of uppercase letters
+    - Usage of special characters
+- If you take care of the above factors, the time taken to crack your password will be: 
 <div align="center">
-    <img src="Password-Stat.png"
+    <img src="Password-Stat.png" width="80%">
 </div>
+
+---
+
+## Contributors
+
+- T Aswin Barath <https://github.com/AswinBarath>
+- G Kishore <https://github.com/gkrockz>
