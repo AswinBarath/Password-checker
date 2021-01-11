@@ -1,6 +1,24 @@
 # Password-checker
-<em>The most secure password checker project</em>
-Password-checker is a python script which checks whether your password is ever being being hacked/leaked or not.
+<em>The most secure password checker project</em><br>
+<strong>Password-checker</strong> is a python script which checks whether your password is ever being being hacked/leaked or not.
+
+---
+
+## Table of content
+
+- [Libraries](#Libraries-used)
+- [Working of the code](#Working-of-the-code:)
+- [Importance of password strength](#Importance-of-password-strength)
+- [Contributors](#Contributors)
+---
+
+## Libraries-used
+The following libraries are used in the password-checker script:
+- [Requests](https://requests.readthedocs.io/en/master/)
+- [hashlib](https://docs.python.org/3/library/hashlib.html)
+- [sys](https://docs.python.org/3/library/sys.html)
+
+---
 
 ## Working of the code:
 - Password-checker script gets input(s) from the command line and checks whether it's ever being hacked/leaked or not.
@@ -44,12 +62,12 @@ Password-checker is a python script which checks whether your password is ever b
     - Usage of special characters
 - If you take care of the above factors, the time taken to crack your password will be: 
 <div align="center">
-    <img src="Password-Stat.png" width="80%">
+    <img src="Password-Stat.png" width="60%">
 </div>
 
 ---
 
-## Contributors
+#### Contributors
 
 - T Aswin Barath <https://github.com/AswinBarath>
 - G Kishore <https://github.com/gkrockz>
