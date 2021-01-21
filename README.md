@@ -1,4 +1,9 @@
 # Password-checker
+
+<p>
+<img src="logo.png" width="60%" alt="password-checker" />
+</p>
+
 <em>The most secure password checker project</em><br>
 <strong>Password-checker</strong> is a python script which checks whether your password is ever being being hacked/leaked or not.
 
